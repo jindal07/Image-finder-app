@@ -24,7 +24,7 @@ async function searchImages(){
         var imgEl=document.createElement("div");
         imgEl.classList.add("result");
         var img=document.createElement("img");
-        img.src=result.urls.thumb;
+        img.src=result.urls.small;
         img.alt=result.alt_description;
         var imgDesc=document.createElement("a");
         imgDesc.href=result.links.html;
